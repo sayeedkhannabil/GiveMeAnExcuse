@@ -26,6 +26,6 @@ async function generate() {
     var selection = document.getElementById("mylist").value;
     let value = await main(selection);
     //console.log(value);
-    document.getElementById("halum").innerHTML = value;
+    document.getElementById("halum").innerHTML = await value;
     
 }
